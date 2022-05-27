@@ -36,6 +36,10 @@ a {
     text-decoration: none;
 }
 
+.active .item {
+    display: block;
+}
+
 .item {
     font-size: 1rem;
     order: 2;
