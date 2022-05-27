@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    /* If we add any padding or border onto an element it does not affect the width of the element */
+    /* This makes sure that the padding and border are included in the total width and height of the elements. */
+    
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    --primary-color: #512C73;
+    --secondary-color: #361356;
+    --tertiary-color: #6F4D8F;
+    --accent-color: #9277AC;
+    --background-color: #200439;
+    --vegasGold-color: #c5b358;
+}
+
+body {
+    font-size: 62.5%;    /* Default font size is 16px -  62.5% of 16 is 10px -
+                            1 rem (relative unit) now will be equivalent to 10px} */
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;  /* so that scroll bars are not shown by default */
+    color: #fff;
+}
+
+nav {
+    background: var(--background-color);
+    padding: 0 1.5rem;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.item {
+    font-size: 1rem;
+    order: 2;
+    width: 100%;
+    text-align: center;
+    /* display: none; */
+}
+
+.logo {
+    font-size: 1.2rem;
+    padding: .75rem 1rem .75rem 0;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+
+.menu li a {
+    display: block;
+    padding: 1.5rem 1.5rem;
+}
+
+.toggle {
+    order: 1;
+    font-size: 2rem;
+}
