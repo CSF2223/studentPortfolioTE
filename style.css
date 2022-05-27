@@ -45,7 +45,7 @@ a {
     order: 2;
     width: 100%;
     text-align: center;
-    /* display: none; */
+    display: none;
 }
 
 .logo {
@@ -70,4 +70,5 @@ a {
 .toggle {
     order: 1;
     font-size: 2rem;
+    color: #fff;
 }
