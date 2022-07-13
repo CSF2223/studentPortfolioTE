@@ -9,30 +9,83 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/regular.min.css" integrity="sha512-YoxvmIzlVlt4nYJ6QwBqDzFc+2aXL7yQwkAuscf2ZAg7daNQxlgQHV+LLRHnRXFWPHRvXhJuBBjQqHAqRFkcVw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <!-- style links -->
-    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    
     <title>My CS Portfolio</title>
 </head>
+
 <body>
     <header>
-        <nav>
-            
-            <ul class="menu">
-                <li class="logo"><a href="#">Profile Logo image</a></li>
-                <li class=" active item"><a href="index.html">Home</a></li>
-                <li class="item"><a href="#">Projects</a></li>
-                <li class="item"><a href="#">Blog</a></li>
-                <li class="item"><a href="#">About Me</a></li>
-                <li class="item"><a href="#">Contact</a></li>
-                
-                <!-- tutorial buttons
-                <li class="item button"><a href="#">Log In</a></li>
-                <li class="item button secondary"><a href="#">Sign Up</a></li>
-                -->
-                <li class="toggle"><a href="#"><i class="fa-regular fa-bars"></i></a></li>
-            </ul>  <!-- Close menu section -->
-            
-        </nav>  <!-- Close nav section -->
+        <div class="logo">
+            <img src="assets/aladdin2.jpeg" alt=""></img>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class=" active nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="projects.html" class="nav__link">Projects</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
+                <li class="nav__item"><a href="aboutMe.html" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                <!-- <li class="toggle"><a href="#"><i class="fa-regular fa-bars"></i></a></li> -->
+            </ul>  <!-- Close nav__list class -->
+        </nav>  <!-- Close nav class -->
     </header>  <!-- Close header section -->
+    
+    
+    <!-- Introduction -->
+    <section class="intro">
+        <div class="intro__left">
+            <h2>Hi!</h2>
+            <h2>My name is</h2>
+            <h1 class="intro__name"><strong>Aladdin</strong></h1>
+        </div>
+        <div class="intro__mid">
+            <img src="assets/AladdinProfile.jpg" alt="Profile image of Aladdin">
+        </div>
+        <div class="intro__right">
+            <h3>Welcome to my</h3>
+            <h2><strong>Computer Science</strong></h2>
+            <h3>Student Portfolio</h3>
+        </div>
+    </section><!-- Close Introduction -->
+    
+    
+    
+    <!-- Project Teaser Section -->
+    <section class="my-teaser-projects">
+        
+        <div class="teaser-projects">
+            <h2 class="teaser-projects__title">My Recent Projects</h2>
+            <div class="teaser-project">
+                <h3>My Image Gallery Project</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At animi commodi delectus veritatis laudantium modi reiciendis, maiores distinctio, hic nihil.</p>
+            </div><!-- close teaser-project1 -->
+            
+            <div class="teaser-project">
+                <h3>Recent Project 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aspernatur quas hic voluptates itaque facere ratione quasi atque! Quia, perferendis.</p>
+            </div><!-- close teaser-project2 -->
+            
+            <div class="teaser-project">
+                <h3>Recent Project 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga corrupti suscipit molestias, nesciunt laboriosam nihil esse debitis non aliquid eveniet?</p>
+            </div><!-- close teaser-project3 -->
+        </div><!-- close teaser-projects class -->
+        
+        <a class="btn" href="#myProjects">My Projects</a>
+        
+    </section><!-- Close Project Teaser Section -->
+    
+    
+    
+    <!-- Footer Section -->
+    <footer class="footer">
+        
+    </footer><!-- Close Footer Section -->
+    
     
     <script src="script.js"></script>
 </body>
