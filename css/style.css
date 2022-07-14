@@ -16,6 +16,9 @@ html {
     --accent-color: #9277AC;
     --background-color: #200439;
     --vegasGold-color: #c5b358;
+    
+    --ff-primary: 'Poppins', sans-serif;
+    --ff-secondary: 'Poppins', sans-serif;
 }
 
 body {
